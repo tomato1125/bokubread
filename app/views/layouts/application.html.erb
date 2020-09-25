@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Bokubread</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application' %>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <%= yield %>
+    <footer class="footer">
+      <div class="helps">
+        <%= link_to "TOP", '#', class: "helps__content" %>
+        <%= link_to "GUIDE",'#', class: "helps__content" %>
+        <%= link_to  "CONTACT", '#', class: "helps__content" %>
+        <%= link_to  "FAQ", '#', class: "helps__content" %>
+      </div>
+      <div class="footer-icon">
+        <%= link_to "#", class: "iconMark" do %>
+          <i class="fab fa-instagram"></i>
+        <% end %>
+        <%= link_to "#", class: "iconMark" do %>
+          <i class="fab fa-twitter"></i>
+        <% end %>
+      </div>
+      <div class="siteMap">
+        <%= link_to "運営会社", '#', class: "siteMap__content"%>
+        <%= link_to "特定商取引",'#', class: "siteMap__content" %>
+        <%= link_to "プライバシーポリシー", '#', class: "siteMap__content" %>
+      </div>
+      <div class="copyright">
+        ©︎recruitment problems
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        speed: 2000,
+        effect: 'fade',
+      });
+    </script>
+  </body>
+</html>

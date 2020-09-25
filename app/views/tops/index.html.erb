@@ -1,0 +1,247 @@
+<div class="warapper">
+  <div class="menu-btn">
+    <i class="fa fa-bars", id="chancell"></i>
+  </div>
+  <div class="menu">
+    <div id="hamburger" class="menu-btn">
+      <i class="far fa-times-circle"></i>
+    </div>
+    <div class="menu-item">TOP</div>
+    <div class="menu-item">ABOUT</div>
+    <div class="menu-item">BLOG</div>
+    <div class="menu-item">CONTACT</div>
+  </div>
+  <header class="header">
+    <div class="header-ber">
+      <%= image_tag "blog_thumb_04_2.jpg", alt: "app-store", class: "header-logo" %>
+      <div class="header-contents">
+        <%= link_to "TOP", '#', class:"header-menu"%>
+        <%= link_to "ABOUT",'#', class:"header-menu" %>
+        <%= link_to  "PRODUCT", '#', class:"header-menu" %>
+        <%= link_to  "BLOG", '#', class:"header-menu" %>
+      </div>
+    </div>
+    <ul class="header-icons">
+      <li class="icon">
+        <i class="fas fa-shopping-bag"></i>
+      </li>
+      <li class="icon">
+        <i class="fas fa-shopping-cart"></i>
+      </li>
+    </ul>
+  </header>
+  <div class="topImage">
+    <div class="topImage-upper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <%= image_tag "mainV_01.jpg", alt: "app-store",class:"swiper-slide"%>
+          <%= image_tag "mainV_02.jpg", alt: "app-store",class:"swiper-slide"%>
+          <%= image_tag "mainV_03.jpg", alt: "app-store",class:"swiper-slide"%>
+        </div>
+      </div>
+    </div>
+    <div class="topImage-bottom">
+      <div class="topImage-bottom__left">
+        <%= image_tag "concapt_01.jpg", alt: "app-store", class:"topImage-image2" %>
+      </div>
+      <div class="topImage-bottom__right">
+        <%= image_tag "concapt_02.jpg", alt: "app-store", class:"topImage-image3" %>
+        <div class="topImage-introduce">
+          <h5 class="topImage-introduce--sentence1">
+            こだわりの国産素材をふんだんに使った
+            <br>
+            <br>
+            食パンとジャムをお届けいたします。
+            <br>
+            <br>
+          </h5>
+          <h4 class="topImage-introduce--sentence2">
+            「一口目でおいしいと言ってもらえるものを」
+            <br>
+            この想いで、当店がこだわりぬいた素材を職人の手で手間を惜しまず、丁寧に仕上げました。
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lineUp">
+    <span class="heading">
+      LINE UP
+    </span>
+    <ul class="lineUp-products">
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_01.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            角形食パン（6枚切り）
+            <br>
+            <br>
+            ¥ 770（税込）
+          </h4>
+        </div>
+      </li>
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_02.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            山型食パン（プレーン）
+            <br>
+            <br>
+            ¥ 770（税込）
+          </h4>
+        </div>
+      </li>
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_03.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            十六穀ブレッド
+            <br>
+            <br>
+            ¥ 880（税込）
+          </h4>
+        </div>
+      </li>
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_04.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            イチゴジャム
+            <br>
+            <br>
+            ¥ 440（税込）
+          </h4>
+        </div>
+      </li>
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_05.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            マーマレードジャム
+            <br>
+            <br>
+            ¥ 440（税込）
+          </h4>
+        </div>
+      </li>
+      <li class="lineUp-product">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "item_thumb_06.jpg", alt: "app-store",class:"lineUp-image"%>
+        <div class="lineUp-information">
+          <h4 class="lineUp-information--detail">
+            イチジクのジャム
+            <br>
+            <br>
+            ¥ 440（税込）
+          </h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="seeMore">
+    <button type='submit', class="seeMore--btn">
+      もっと見る
+    </button>
+  </div>
+  <div class="lineUp">
+    <span class="heading">
+      BLOG
+    </span>
+    <div class="lineUp-blogs">
+      <div class="lineUp-blog">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "blog_thumb_01.jpg", alt: "app-store",class:"blog-image"%>
+        <div class="lineUp-blogInformation">
+          <span class="lineUp-blogInformation--title">
+            定期便開始のお知らせ
+          </span>
+          <span class="lineUp-blogInformation--date">
+            2020/00/00
+          </span>
+        </div>
+      </div>
+      <div class="lineUp-blog">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "blog_thumb_02.jpg", alt: "app-store",class:"blog-image"%>
+        <div class="lineUp-blogInformation">
+          <span class="lineUp-blogInformation--title">
+            新作ジャムのご紹介
+          </span>
+          <span class="lineUp-blogInformation--date">
+            2020/00/00
+          </span>
+        </div>
+      </div>
+      <div class="lineUp-blog">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "blog_thumb_03.jpg", alt: "app-store",class:"blog-image"%>
+        <div class="lineUp-blogInformation">
+          <span class="lineUp-blogInformation--title">
+            限定販売予約のお知らせ
+          </span>
+          <span class="lineUp-blogInformation--date">
+            2020/00/00
+          </span>
+        </div>
+      </div>
+      <div class="lineUp-blog">
+      <%= link_to '', '#', method: :get %>
+        <%= image_tag "blog_thumb_04.jpg", alt: "app-store",class:"blog-image"%>
+        <div class="lineUp-blogInformation">
+          <span class="lineUp-blogInformation--title">
+            休業日のお知らせ
+          </span>
+          <span class="lineUp-blogInformation--date">
+            2020/00/00
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog-seeMore">
+    <button type='submit', class="blog-seeMore--btn">
+      もっと見る
+    </button>
+  </div>
+  <div class="lineUp-map">
+    <span class="heading">
+      SHOP
+    </span>
+    <div class="map">
+      <div class="googleMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.205453990007!2d139.7492626151951!3d35.696561436738655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c402e8dd339%3A0x7980817a157083f7!2z44CSMTAyLTAwNzMg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Lmd5q615YyX77yR5LiB55uu77yU4oiS77yVIDfpmo4!5e0!3m2!1sja!2sjp!4v1600438536725!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="adress">
+        <span>
+          〒102-0073
+          <br>
+          東京都千代田区九段北1-4-5
+          <br>
+          <br>
+          TEL : 0*-****-****
+          <br>
+          営業時間 : 10時〜18時（売り切れ次第終了）
+          <br>
+          定休日：水曜日
+          <br>
+          <br>
+          半蔵門線・東西線・都営新宿線「九段下駅」より
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.menu-btn').on('click', function(){
+      $('.menu').toggleClass('is-active');
+      $('.chancell').innerHTML = '<i class="far fa-times-circle"></i>';
+    });
+  }());
+</script>
