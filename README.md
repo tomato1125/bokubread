@@ -1,24 +1,3 @@
-# README
+# 作品について
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ビューのみの実装ですが、レスポンシブ対応のサイトを作成。JavaScrip を使って、スライドショー・バーガーメニューの実装を行う。
