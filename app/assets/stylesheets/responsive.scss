@@ -282,13 +282,11 @@
   .lineUp {
     display: flex;
     justify-content: center;
-    // align-items: center;
   }
   .lineUp-products {
     width: auto;
     justify-content: center;
     margin: 0 auto;
-    // text-align: center;
   }
   .lineUp-products li{
     width: 19.44vw;
@@ -322,7 +320,6 @@
     padding: 0 16px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
   }
   .lineUp-blog {
     width: 100vw;
@@ -396,7 +393,6 @@
   .lineUp-map {
     width: 100%;
     max-width: 1400px;
-    // margin: 0 auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 160px;
@@ -446,11 +442,7 @@
 }
 
 //--------------------------ヘッダー・フッター部分----------------------//
-// @media screen and (min-width: 700px) {
-//   .menu-btn {
-//     display: none;
-//   }
-// }
+
 
 @media screen and (min-width: 700px) {
   .footer {
@@ -590,7 +582,6 @@
   .helps {
     display: flex;
     flex-direction: column;
-    // width: 100vw;
     font-size: 2vh;
     margin-bottom: 4vh;
     &__content {
